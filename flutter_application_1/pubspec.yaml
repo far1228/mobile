@@ -1,0 +1,34 @@
+name: flutter_application_1
+description: A new Flutter project.
+
+# Versi Flutter SDK
+environment:
+  sdk: ">=2.19.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management GetX
+
+  # Image Picker untuk mengambil gambar dari galeri atau kamera
+  image_picker: ^0.8.5+3
+
+  # Tambahkan paket-paket lainnya jika dibutuhkan
+  cupertino_icons: ^1.0.2
+
+  # Menambahkan intl package
+  intl: ^0.18.0  # Versi bisa disesuaikan
+  get: ^4.6.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/images/img1.jpeg
+  - assets/images/img2.png
+  - assets/images/img3.jpeg
